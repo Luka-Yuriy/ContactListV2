@@ -39,7 +39,9 @@ class SectionTableViewController: UITableViewController {
             content.text = person.email
             content.image = UIImage(systemName: Contacts.email.rawValue)
         }
+        
         cell.contentConfiguration = content
+        
         return cell
     }
     

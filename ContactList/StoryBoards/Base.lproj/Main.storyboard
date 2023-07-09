@@ -108,12 +108,12 @@
             </objects>
             <point key="canvasLocation" x="1675" y="-1340"/>
         </scene>
-        <!--Tab Bar View Controller-->
+        <!--Person List-->
         <scene sceneID="Iea-He-QzP">
             <objects>
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="b4f-8C-CAl" customClass="TabBarViewController" customModule="ContactList" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" id="eJz-Sf-adM"/>
+                    <navigationItem key="navigationItem" title="Person List" id="eJz-Sf-adM"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iD7-PI-1r6">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>

@@ -50,9 +50,7 @@
 		C0250A932A5B1A7F00221163 = {
 			isa = PBXGroup;
 			children = (
-				C0250ABA2A5B1D5700221163 /* Services */,
-				C0250AB72A5B1CE300221163 /* Model */,
-				C0250A9E2A5B1A7F00221163 /* ContactList */,
+				C0250AC62A5B3FDB00221163 /* ContactList */,
 				C0250A9D2A5B1A7F00221163 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -65,21 +63,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C0250A9E2A5B1A7F00221163 /* ContactList */ = {
+		C0250A9E2A5B1A7F00221163 /* VIewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				C0250A9F2A5B1A7F00221163 /* AppDelegate.swift */,
 				C0250AA12A5B1A7F00221163 /* SceneDelegate.swift */,
 				C0250AB32A5B1AEA00221163 /* TabBarViewController.swift */,
 				C0250AB52A5B1C8C00221163 /* ContactListViewController.swift */,
 				C0250AC12A5B369400221163 /* ContactDetailsViewController.swift */,
 				C0250ABD2A5B20C600221163 /* SectionTableViewController.swift */,
-				C0250AA52A5B1A7F00221163 /* Main.storyboard */,
-				C0250AA82A5B1A7F00221163 /* Assets.xcassets */,
-				C0250AAA2A5B1A7F00221163 /* LaunchScreen.storyboard */,
-				C0250AAD2A5B1A7F00221163 /* Info.plist */,
 			);
-			path = ContactList;
+			path = VIewControllers;
 			sourceTree = "<group>";
 		};
 		C0250AB72A5B1CE300221163 /* Model */ = {
@@ -96,6 +89,45 @@
 				C0250ABB2A5B1D6A00221163 /* DataStore.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		C0250AC32A5B3F3000221163 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C0250AA82A5B1A7F00221163 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C0250AC42A5B3F7800221163 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C0250A9F2A5B1A7F00221163 /* AppDelegate.swift */,
+				C0250AAD2A5B1A7F00221163 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C0250AC52A5B3F8D00221163 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				C0250AA52A5B1A7F00221163 /* Main.storyboard */,
+				C0250AAA2A5B1A7F00221163 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		C0250AC62A5B3FDB00221163 /* ContactList */ = {
+			isa = PBXGroup;
+			children = (
+				C0250A9E2A5B1A7F00221163 /* VIewControllers */,
+				C0250AB72A5B1CE300221163 /* Model */,
+				C0250ABA2A5B1D5700221163 /* Services */,
+				C0250AC52A5B3F8D00221163 /* StoryBoards */,
+				C0250AC42A5B3F7800221163 /* App */,
+				C0250AC32A5B3F3000221163 /* Resources */,
+			);
+			path = ContactList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -325,7 +357,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 27DUN46W9J;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ContactList/Info.plist;
+				INFOPLIST_FILE = ContactList/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -356,7 +388,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 27DUN46W9J;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ContactList/Info.plist;
+				INFOPLIST_FILE = ContactList/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
