@@ -51,7 +51,7 @@ extension Person {
     }
 }
 
-enum ContactsL: String {
+enum Contacts: String {
     case phone = "phone"
     case email = "tray"
 }

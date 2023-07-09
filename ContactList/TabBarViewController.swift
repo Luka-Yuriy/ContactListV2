@@ -8,16 +8,18 @@
 import UIKit
 
 class TabBarViewController: UITabBarController {
-        override func viewDidLoad() {
+    
+    override func viewDidLoad() {
         super.viewDidLoad()
         setupViewControllers()
-        }
+    }
     
     private func setupViewControllers() {
         guard let contactListVC = viewControllers?.first as? ContactListViewController else { return }
         guard let sectionVC = viewControllers?.last as? SectionTableViewController else { return }
         
         let persons = Person.getContactList()
-        
+        contactListVC.person = persons
+        sectionVC.person = persons
     }
 }
