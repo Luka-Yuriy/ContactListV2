@@ -17,6 +17,7 @@
 		C0250AB92A5B1CF700221163 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0250AB82A5B1CF700221163 /* Person.swift */; };
 		C0250ABC2A5B1D6A00221163 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0250ABB2A5B1D6A00221163 /* DataStore.swift */; };
 		C0250ABE2A5B20C600221163 /* SectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0250ABD2A5B20C600221163 /* SectionTableViewController.swift */; };
+		C0250AC22A5B369400221163 /* ContactDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0250AC12A5B369400221163 /* ContactDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		C0250AB82A5B1CF700221163 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		C0250ABB2A5B1D6A00221163 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		C0250ABD2A5B20C600221163 /* SectionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionTableViewController.swift; sourceTree = "<group>"; };
+		C0250AC12A5B369400221163 /* ContactDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				C0250AA12A5B1A7F00221163 /* SceneDelegate.swift */,
 				C0250AB32A5B1AEA00221163 /* TabBarViewController.swift */,
 				C0250AB52A5B1C8C00221163 /* ContactListViewController.swift */,
+				C0250AC12A5B369400221163 /* ContactDetailsViewController.swift */,
 				C0250ABD2A5B20C600221163 /* SectionTableViewController.swift */,
 				C0250AA52A5B1A7F00221163 /* Main.storyboard */,
 				C0250AA82A5B1A7F00221163 /* Assets.xcassets */,
@@ -172,6 +175,7 @@
 				C0250AA02A5B1A7F00221163 /* AppDelegate.swift in Sources */,
 				C0250AB42A5B1AEA00221163 /* TabBarViewController.swift in Sources */,
 				C0250AB62A5B1C8C00221163 /* ContactListViewController.swift in Sources */,
+				C0250AC22A5B369400221163 /* ContactDetailsViewController.swift in Sources */,
 				C0250AA22A5B1A7F00221163 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
